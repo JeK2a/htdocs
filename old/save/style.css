@@ -1,0 +1,16 @@
+﻿.box {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    background-color: unset;
+    color: white;
+    height: auto;
+    top: -70px;
+}
+.box:hover {
+    background-color: white;
+    color: black;
+    position: absolute;
+    z-index: 1;
+}

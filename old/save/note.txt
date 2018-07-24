@@ -1,0 +1,21 @@
+<img src="https://img5.goodfon.ru/original/2048x1368/3/92/uels-gory-ozero-derevo.jpg" border="1" width="1344">
+
+/var/www/admin/data/www/my/public_html/help/smtp/class.phpmailer.php - 2873
+Array
+(
+    [0] => Array
+        (
+            [0] => src="https://img5.goodfon.ru/original/2048x1368/3/92/uels-gory-ozero-derevo.jpg"
+        )
+
+    [1] => Array
+        (
+            [0] => src
+        )
+
+    [2] => Array
+        (
+            [0] => https://img5.goodfon.ru/original/2048x1368/3/92/uels-gory-ozero-derevo.jpg
+        )
+
+)

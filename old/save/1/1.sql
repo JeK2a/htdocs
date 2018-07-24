@@ -1,0 +1,1 @@
+SELECT * FROM category WHERE parent_category_id="0" AND name LIKE "авто%";

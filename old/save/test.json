@@ -1,0 +1,25 @@
+{"lastsales":{
+    "params":{
+      "client_id": 3059,
+      "last_day": 365,
+      "region": "client_region"
+    },
+    "columns_name": [
+      "№",
+      "Код товара",
+      "Наименование",
+      "Оптовая цена",
+      "Розничная цена"
+    ],
+    "columns": [
+      "number",
+      "name_ru",
+      "productID",
+      "Price2",
+      "Price1"
+    ],
+    "picture": {
+      "height": "50px",
+      "width": "50px"
+    }
+  }
