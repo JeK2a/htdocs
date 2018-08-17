@@ -4,8 +4,8 @@ header("Content-Type:text/html; charset=UTF-8");
 
 //$login  = 'vipjonpc@mail.ru';
 //$pass   = '';
-$login  = 'jek2ka2016@yandex.ru';
-$pass   = 'Nokia3510!';
+$login  = 'root';
+$pass   = 'root';
 
 //$mail = imap_open('{pop.mail.ru:995/novalidate-cert/pop3/ssl}', $login, $pass);
 $mail = imap_open('{imap.yandex.ru:993/novalidate-cert/imap/ssl}', $login, $pass);
