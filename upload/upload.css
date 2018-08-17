@@ -1,0 +1,15 @@
+#drop_file_zone {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+
+}
+#drag_upload_file {
+    margin:0 auto;
+}
+#drag_upload_file p {
+    text-align: center;
+}
+#drag_upload_file #selectfile {
+    display: none;
+}

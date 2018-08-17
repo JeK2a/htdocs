@@ -1,6 +1,6 @@
 <!--<!--<form enctype="multipart/form-data" action="https://my.tdfort.ru/launchers/post_to_send_mail.php" method="POST">-->-->
-<!--<form enctype="multipart/form-data" action="index.php" method="POST">-->
-<!--<!--<form enctype="multipart/form-data" action="index.php" method="POST">-->-->
+<!--<form enctype="multipart/form-data" action="inbox.php" method="POST">-->
+<!--<!--<form enctype="multipart/form-data" action="inbox.php" method="POST">-->-->
 <!--    <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />-->
 <!--    <!-- Название элемента input определяет имя в массиве $_FILES -->-->
 <!--    Отправить этот файл: <input name="userfile" type="file" />-->
@@ -102,7 +102,7 @@ echo '</pre>';
 
 //$path = "https://tdfort.ru/files/email/33/89.jpg";
 //$path = "https://tdfort.ru/files/email/33/89.jpg";
-//$path = "index.php";
+//$path = "inbox.php";
 //$path = "https://tdfort.ru/files/email/33/facebook.jpg";
 
 //if (!@is_file($path)) {

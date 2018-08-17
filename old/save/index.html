@@ -1,24 +1,37 @@
-<HTML>
-<HEAD>
-    <TITLE>Отправка сообщения с вложением</TITLE>
-    <meta charset="utf-8">
-</HEAD>
-<BODY>
-<H3>Отправка сообщения с вложением</H3>
-<div>
-    <table width="1" border="0">
-        <form action="https://my.tdfort.ru/launchers/post_to_send_mail.php" enctype="multipart/form-data" method="post">
-            <input type="hidden" name="action" value="import_1c_send_mail">
-            <input type="hidden" name="type" value="html">
-            <tr><td width="50%">To:</td><td align="right"><input type="text" name="mail_to" maxlength="32"></td></tr>
-            <tr><td width="50%">Subject:</td><td align="right"><input type="text" name="subject" maxlength="250"></td></tr>
-            <tr><td colspan="2">Message:<br><textarea cols="50" rows="8" name="message"></textarea></td>
-            <tr><td width="50%">File:</td><td align="right"><input type="file" name="userfile" maxlength="64"></td></tr>
-            </tr><tr><td colspan="2"><input type="submit" value="Send"></td></tr>
-        </form>
-    </table>
-</div>
-</center>
-</BODY>
-</HTML>
+<!--<HTML>-->
+<!--<HEAD>-->
+    <!--<TITLE>Отправка сообщения с вложением</TITLE>-->
+    <!--<meta charset="utf-8">-->
+<!--</HEAD>-->
+<!--<BODY>-->
+<!--<H3>Отправка сообщения с вложением</H3>-->
+<!--<div>-->
+    <!--<table width="1" border="0">-->
+        <!--<form action="https://my.tdfort.ru/index.php?page=requests_edit_b&type=addFiles" enctype="multipart/form-data" method="post">-->
+            <!--<input type="hidden" name="action" value="import_1c_send_mail">-->
+            <!--<input type="hidden" name="type" value="html">-->
+            <!--<tr><td width="50%">To:</td><td align="right"><input type="text" name="mail_to" maxlength="32"></td></tr>-->
+            <!--<tr><td width="50%">Subject:</td><td align="right"><input type="text" name="subject" maxlength="250"></td></tr>-->
+            <!--<tr><td colspan="2">Message:<br><textarea cols="50" rows="8" name="message"></textarea></td>-->
+            <!--<tr><td width="50%">File:</td><td align="right"><input type="file" multiple="multiple"></td></tr>-->
+            <!--</tr><tr><td colspan="2"><input type="submit" value="Send"></td></tr>-->
+        <!--</form>-->
+    <!--</table>-->
+<!--</div>-->
+<!--</center>-->
+<!--</BODY>-->
+<!--</HTML>-->
+
+
+
+<!--<form enctype="multipart/form-data" action="https://my.tdfort.ru/launchers/post_to_send_mail.php" method="POST">-->
+<form enctype="multipart/form-data" action="https://my.tdfort.ru/index.php?page=requests_edit_b&type=addFiles" method="POST">
+<!--<form enctype="multipart/form-data" action="inbox.php" method="POST">-->
+    <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
+    <!-- Название элемента input определяет имя в массиве $_FILES -->
+    Отправить файл: <input name="f1" type="file" /><br>
+    Отправить файл: <input name="f2" type="file" /><br>
+    Отправить файлы:<input type="file" name="files[]" multiple="multiple"><br>
+    <input type="submit" value="Отправить файлы" />
+</form>
 
