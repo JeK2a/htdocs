@@ -32,13 +32,13 @@
     <meta charset="utf-8">
 
     <title>HTML5 Drag and Drop загрузка файлов</title>
-    <link rel="stylesheet" href="/dragAndDrop/style.css">
+    <link rel="stylesheet" href="/old2/dragAndDrop/style.css">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script src="/dragAndDrop/script.js"></script>
+    <script src="/old2/dragAndDrop/script.js"></script>
 </head>
 <body>
-<form action="/dragAndDrop/upload.php">
+<form action="/old2/dragAndDrop/upload.php">
     <div id="dropZone">
         Для загрузки, перетащите файл сюда.
     </div>
